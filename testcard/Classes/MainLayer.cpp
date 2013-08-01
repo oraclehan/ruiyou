@@ -25,7 +25,7 @@ bool MainLayer::init()
         return false;
     }
     
-    CCSprite * pSprite = CCSprite::create("HelloWorld.png");
+    Sprite * pSprite = Sprite::create("HelloWorld.png");
     //CC_BREAK_IF(!pSprite);
     if (!pSprite)
     {
@@ -33,8 +33,8 @@ bool MainLayer::init()
         return false;
     }
     
-    pSprite->setPosition(ccp(CCDirector::sharedDirector()->getVisibleSize().width/2,
-                              CCDirector::sharedDirector()->getVisibleSize().height/2));
+    pSprite->setPosition(Point(Director::getInstance()->getVisibleSize().width/2,
+                              Director::getInstance()->getVisibleSize().height/2));
     addChild(pSprite);
     
 //    CCSprite * pSprite1 = CCSprite::create("background.png");
