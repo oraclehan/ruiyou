@@ -1,0 +1,196 @@
+TCocosDenshion Mac
+v5
+r1
+cCheck dependencies
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDXMacOSXSupport.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libCocosDenshion Mac.a" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C65C1B00000000000000AA
+t1371954203
+s170
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDAudioManager.h
+c0000000051F7172600000000000026ED
+t1375147814
+s9965
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDAudioManager.m
+c0000000051F71726000000000000781D
+t1375147814
+s30749
+i"CDAudioManager.h"
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDOpenALSupport.m
+c0000000051F717260000000000002AA4
+t1375147814
+s10916
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDXMacOSXSupport.mm
+c0000000051F7172600000000000013FA
+t1375147814
+s5114
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CocosDenshion.m
+c0000000051F71726000000000000CEA5
+t1375147814
+s52901
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine.mm
+c0000000051F717260000000000001DE6
+t1375147814
+s7654
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine_objc.m
+c0000000051F717260000000000001663
+t1375147814
+s5731
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion Mac.LinkFileList
+c0000000051F8D2350000000000000451
+t1375261237
+s1105
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libCocosDenshion Mac.a
+t2
+s0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDAudioManager.m
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDOpenALSupport.m
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDXMacOSXSupport.mm
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CocosDenshion.m
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine.mm
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine_objc.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc6360db509a9b741^fa093bb509a9b741^---0#1#0#--18"Check dependencies36"C534B51F-8B25-44BC-9FDA-E15B584358B6-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396954037.225544
+e396954039.103233
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDAudioManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDAudioManager.m21023ab509a9b741^226e1ab709a9b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDAudioManager.m0000000000000000^3700"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o" CocosDenshion/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/mac -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDAudioManager.m -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o"36"F64ED29E-9DAE-4188-AB8F-1B1CFC9DF7F4-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396954037.227888
+e396954039.030594
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDOpenALSupport.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDOpenALSupport.m897d3ab509a9b741^66dd07b709a9b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDOpenALSupport.m0000000000000000^3706"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o" CocosDenshion/mac/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/mac -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDOpenALSupport.m -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o"36"92FF0F4E-1800-4CB2-81CE-211DB1E2FC98-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDXMacOSXSupport.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s396954037.229610
+e396954039.423006
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDXMacOSXSupport.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDXMacOSXSupport.mm5e0e3bb509a9b741^a54e6cb709a9b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDXMacOSXSupport.mm0000000000000000^3831"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o" CocosDenshion/mac/CDXMacOSXSupport.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/mac -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CDXMacOSXSupport.mm -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o"36"6542E2E3-E380-4F67-A3CF-E9E91A5B8CCD-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396954037.231402
+e396954039.215290
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CocosDenshion.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CocosDenshion.m95663bb509a9b741^263637b709a9b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CocosDenshion.m0000000000000000^3694"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o" CocosDenshion/mac/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/mac -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/CocosDenshion.m -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o"36"6699125F-063F-4EE4-92AE-554E89AD6C80-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s396954039.032023
+e396954041.485778
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine.mm2c6608b709a9b741^c363c3b909a9b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine.mm0000000000000000^3837"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o" CocosDenshion/mac/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/mac -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine.mm -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o"36"E877A57D-7AB0-4280-AFE6-ACAF683E2C97-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396954039.104701
+e396954039.959401
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine_objc.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine_objc.m5dfb1ab709a9b741^cc99f5b709a9b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine_objc.m0000000000000000^3748"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o" CocosDenshion/mac/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/CocosDenshion Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/mac -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/mac/SimpleAudioEngine_objc.m -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o"36"284DF069-EBDA-4964-A29C-00A3FE7234DA-
+
+CLibtool "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libCocosDenshion Mac.a" normal x86_64
+s396954055.212674
+e396954055.244635
+r1
+xLibtool
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libCocosDenshion Mac.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Libtool "projects/testcard/proj.ios/Build/Products/Debug/libCocosDenshion Mac.a" normal x86_6435b439c709a9b741^11a83ec709a9b741^---0#0#0#--854"Libtool "projects/testcard/proj.ios/Build/Products/Debug/libCocosDenshion Mac.a" normal x86_64    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -filelist "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion Mac.LinkFileList" -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libCocosDenshion Mac.a"36"3EFC736D-E98A-466C-9A53-604222181DE5-
+

@@ -1,0 +1,909 @@
+Ttestcard
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Info.plist Info.plist
+cCpResource Default.png Build/Products/Debug-iphonesimulator/testcard.app/Default.png
+cCopyPlistFile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Info.plist ../Resources/Info.plist
+cCpResource ../Resources/Default.png Build/Products/Debug-iphonesimulator/testcard.app/Default.png
+cCpResource ../Resources/../proj.ios/Icon-57.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-57.png
+cCpResource ../Resources/../proj.ios/Icon-114.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-114.png
+cCpResource ../Resources/../proj.ios/Icon-72.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png
+cCpResource ../Resources/Icon-72.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png
+cCpResource ../Resources/../proj.ios/Icon-144.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-144.png
+cCpResource ../Resources/../proj.ios/Default-568h@2x.png Build/Products/Debug-iphonesimulator/testcard.app/Default-568h@2x.png
+cCpResource ../Resources/../proj.ios/Default@2x.png Build/Products/Debug-iphonesimulator/testcard.app/Default@2x.png
+cCpResource ../Resources/CloseNormal.png Build/Products/Debug-iphonesimulator/testcard.app/CloseNormal.png
+cCpResource ../Resources/CloseSelected.png Build/Products/Debug-iphonesimulator/testcard.app/CloseSelected.png
+cCpResource ../Resources/HelloWorld.png Build/Products/Debug-iphonesimulator/testcard.app/HelloWorld.png
+cCpResource ../Resources/background.png Build/Products/Debug-iphonesimulator/testcard.app/background.png
+cCpResource ../Resources/backgroud.png Build/Products/Debug-iphonesimulator/testcard.app/backgroud.png
+cCpResource ../Resources/background2.jpg Build/Products/Debug-iphonesimulator/testcard.app/background2.jpg
+cCpResource ../Resources/check.jpg Build/Products/Debug-iphonesimulator/testcard.app/check.jpg
+cCopyPlistFile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/explosion.plist ../Resources/explosion.plist
+cCpResource ../Resources/explosion.png Build/Products/Debug-iphonesimulator/testcard.app/explosion.png
+cCpResource ../Resources/Icon-Small-50.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small-50.png
+cCpResource "../Resources/fonts/Marker Felt.ttf" "Build/Products/Debug-iphonesimulator/testcard.app/Marker Felt.ttf"
+cCpResource ../Resources/Icon-Small.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small.png
+cCpResource ../Resources/Icon-Small@2x.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small@2x.png
+cCpResource ../Resources/Icon.png Build/Products/Debug-iphonesimulator/testcard.app/Icon.png
+cCpResource ../Resources/Icon@2x.png Build/Products/Debug-iphonesimulator/testcard.app/Icon@2x.png
+cCpResource ../Resources/iTunesArtwork Build/Products/Debug-iphonesimulator/testcard.app/iTunesArtwork
+cCpResource ../Resources/moguiyu.png Build/Products/Debug-iphonesimulator/testcard.app/moguiyu.png
+cCpResource ../Resources/newback.jpg Build/Products/Debug-iphonesimulator/testcard.app/newback.jpg
+cCpResource ../Resources/player.jpg Build/Products/Debug-iphonesimulator/testcard.app/player.jpg
+cProcessPCH++ /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-enjysejfauwprffhkepsyleuovjq/Prefix.pch.pth Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-bsikszxcvsphombomgwidysudcni/Prefix.pch.pth Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-eayxlabhljsznodlenesqbtsfnqp/Prefix.pch.pth Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051C65C520000000000000110
+t1371954258
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000515CB48600000000001EB540
+t1365030022
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000515CB48600000000003D4DF0
+t1365030022
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000515CB4860000000000228FE0
+t1365030022
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000515CB48700000000003DDFA0
+t1365030023
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000515CB48700000000000015F7
+t1365030023
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000515CB4890000000000030EB0
+t1365030025
+s200368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000515CB4890000000000015400
+t1365030025
+s87040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000515CB48900000000001D5750
+t1365030025
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000515CB48A0000000000000E8D
+t1365030026
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000515CB48B0000000000AB6230
+t1365030027
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libz.dylib
+c00000000515CB4970000000000013500
+t1365030039
+s79104
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../cocos2dx/platform/third_party/ios/libraries/libcurl.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Default-568h@2x.png
+c0000000051F71726000000000002F4C3
+t1375147814
+s193731
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Default@2x.png
+c0000000051F71726000000000008DD28
+t1375147814
+s580904
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Icon-114.png
+c0000000051F717260000000000004099
+t1375147814
+s16537
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Icon-144.png
+c0000000051F717260000000000006723
+t1375147814
+s26403
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Icon-57.png
+c0000000051F717260000000000002300
+t1375147814
+s8960
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Icon-72.png
+c0000000051F717260000000000002CBD
+t1375147814
+s11453
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/CloseNormal.png
+c0000000051793C4600000000000018A7
+t1366899782
+s6311
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/CloseSelected.png
+c0000000051793C46000000000000157B
+t1366899782
+s5499
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Default.png
+c0000000051793C460000000000015DA4
+t1366899782
+s89508
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/HelloWorld.png
+c0000000051793C460000000000021E19
+t1366899782
+s138777
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon-72.png
+c0000000051793C460000000000002E51
+t1366899782
+s11857
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon-Small-50.png
+c0000000051793C460000000000001D49
+t1366899782
+s7497
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon-Small.png
+c0000000051793C46000000000000123A
+t1366899782
+s4666
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon-Small@2x.png
+c0000000051793C460000000000002068
+t1366899782
+s8296
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon.png
+c0000000051793C460000000000002300
+t1366899782
+s8960
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon@2x.png
+c0000000051793C460000000000004099
+t1366899782
+s16537
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Info.plist
+c0000000051F734690000000000000553
+t1375155305
+s1363
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/backgroud.png
+c0000000051793C460000000000021E19
+t1366899782
+s138777
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/background.png
+c0000000051F6196D000000000001AF46
+t1375082861
+s110406
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/background2.jpg
+c0000000051F6221B0000000000004AD4
+t1375085083
+s19156
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/check.jpg
+c0000000051F734040000000000054E1A
+t1375155204
+s347674
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/explosion.plist
+c00000000510F56680000000000004382
+t1359959656
+s17282
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/explosion.png
+c00000000510F566800000000000329CF
+t1359959656
+s207311
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/fonts/Marker Felt.ttf
+c0000000051F7172600000000000064B0
+t1375147814
+s25776
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/iTunesArtwork
+c0000000051793C46000000000000F21E
+t1366899782
+s61982
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/moguiyu.png
+c0000000051837EEA0000000000035532
+t1367572202
+s218418
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/newback.jpg
+c0000000051F726180000000000016AB5
+t1375151640
+s92853
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/player.jpg
+c0000000051F75D07000000000000325D
+t1375165703
+s12893
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/AppDelegate.cpp
+c0000000051F8DE00000000000000057C
+t1375264256
+s1404
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/CombatLayer.cpp
+c0000000051F78D980000000000000D49
+t1375178136
+s3401
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/HelloWorldScene.cpp
+c0000000051F7172600000000000009EB
+t1375147814
+s2539
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/MainLayer.cpp
+c0000000051F8B3FC0000000000000DF3
+t1375253500
+s3571
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/Player.cpp
+c0000000051F78D3E0000000000000D34
+t1375178046
+s3380
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/ResourceManager.cpp
+c0000000051F7829E0000000000000ADB
+t1375175326
+s2779
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/SceneManager.cpp
+c0000000051F76D460000000000000A3C
+t1375169862
+s2620
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/AppController.mm
+c0000000051F717260000000000000FAD
+t1375147814
+s4013
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-bsikszxcvsphombomgwidysudcni/Prefix.pch.pth
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-eayxlabhljsznodlenesqbtsfnqp/Prefix.pch.pth
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-enjysejfauwprffhkepsyleuovjq/Prefix.pch.pth
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/AppController.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/CombatLayer.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/HelloWorldScene.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/MainLayer.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/Player.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/ResourceManager.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/SceneManager.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/testcard.LinkFileList
+c0000000051F8DF33000000000000070C
+t1375264563
+s1804
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libCocosDenshion iOS.a
+c0000000051F8DF330000000000056640
+t1375264563
+s353856
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libbox2d iOS.a
+c0000000051F8DEE100000000001CA198
+t1375264481
+s1876376
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libchipmunk iOS.a
+c0000000051F8DEDA00000000000BC438
+t1375264474
+s771128
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libcocos2dx iOS.a
+c0000000051F8DF3200000000013E6520
+t1375264562
+s20866336
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libcocos2dx-extensions iOS.a
+c0000000051F8DF110000000000EDB690
+t1375264529
+s15578768
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app.dSYM
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/CloseNormal.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/CloseSelected.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Default.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Default@2x.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/HelloWorld.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-114.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-144.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-57.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small-50.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small@2x.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon@2x.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Info.plist
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Marker Felt.ttf
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/PkgInfo
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/backgroud.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/background.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/background2.jpg
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/check.jpg
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/explosion.plist
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/explosion.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/iTunesArtwork
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/moguiyu.png
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/newback.jpg
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/player.jpg
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/testcard
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Default.png
+c0000000051F717260000000000015DA4
+t1375147814
+s89508
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Prefix.pch
+c0000000051F7172600000000000000B5
+t1375147814
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/RootViewController.mm
+c0000000051F717260000000000000676
+t1375147814
+s1654
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/main.m
+c0000000051F717260000000000000167
+t1375147814
+s359
+
+NInfo.plist
+c0000000051F8D1E6000000000000052C
+t1375261158
+s1324
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/AppDelegate.cpp
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/CombatLayer.cpp
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/HelloWorldScene.cpp
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/MainLayer.cpp
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/Player.cpp
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/ResourceManager.cpp
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/SceneManager.cpp
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/AppController.mm
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/RootViewController.mm
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa32167b316a9b741^a96c68b316a9b741^-370"Warning: Multiple build commands for output file /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Default.pngWarning: Multiple build commands for output file /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png2(21%IDEActivityLogMessage2@184"Warning: Multiple build commands for output file /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Default.png-396957363#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@184"Warning: Multiple build commands for output file /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png-396957363#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"10E60F90-B3D6-46C0-82C6-4DD809E2563A-
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/AppController.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/AppController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/AppDelegate.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/AppDelegate.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/CombatLayer.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/CombatLayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/HelloWorldScene.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/HelloWorldScene.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/MainLayer.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/MainLayer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/Player.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/Player.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/ResourceManager.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/ResourceManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/RootViewController.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/RootViewController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/SceneManager.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../classes/../Classes/SceneManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/Objects-normal/i386/main.o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCopyPlistFile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Info.plist ../Resources/Info.plist
+s396957363.431840
+e396957363.434908
+r1
+xCopyPlistFile
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Info.plist
+x../Resources/Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Copy ../Resources/Info.plist44a46eb316a9b741^d95e6fb316a9b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Info.plist0000000000000000^575"CopyPlistFile Build/Products/Debug-iphonesimulator/testcard.app/Info.plist ../Resources/Info.plist    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app -- ../Resources/Info.plist36"CF2A3122-C188-4A6E-A632-D0948681A143-
+
+CCopyPlistFile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/explosion.plist ../Resources/explosion.plist
+s396957363.462064
+e396957363.466188
+r1
+xCopyPlistFile
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/explosion.plist
+x../Resources/explosion.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy ../Resources/explosion.plist7f6876b316a9b741^715777b316a9b741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/explosion.plist0000000000000000^590"CopyPlistFile Build/Products/Debug-iphonesimulator/testcard.app/explosion.plist ../Resources/explosion.plist    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app -- ../Resources/explosion.plist36"DC41E3B5-382D-4F1D-920D-B1D22D06FBB2-
+
+CCpResource "../Resources/fonts/Marker Felt.ttf" "Build/Products/Debug-iphonesimulator/testcard.app/Marker Felt.ttf"
+s396957363.467560
+e396957363.471330
+r1
+xCpResource
+x../Resources/fonts/Marker Felt.ttf
+xBuild/Products/Debug-iphonesimulator/testcard.app/Marker Felt.ttf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/testcard.app/Marker Felt.ttf9fcc77b316a9b741^18b478b316a9b741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Marker%20Felt.ttf000000000080d041^739"CpResource "../Resources/fonts/Marker Felt.ttf" "Build/Products/Debug-iphonesimulator/testcard.app/Marker Felt.ttf"    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/fonts/Marker Felt.ttf" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"DB5F4A0A-79F2-4B11-83A2-30C5CEAA162C-
+
+CCpResource ../Resources/../proj.ios/Default-568h@2x.png Build/Products/Debug-iphonesimulator/testcard.app/Default-568h@2x.png
+s396957363.442425
+e396957363.446838
+r1
+xCpResource
+x../Resources/../proj.ios/Default-568h@2x.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Products/Debug-iphonesimulator/testcard.app/Default-568h@2x.png1c5d71b316a9b741^1f8272b316a9b741^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Default-568h@2x.png000000000080d041^763"CpResource "../Resources/../proj.ios/Default-568h@2x.png" "Build/Products/Debug-iphonesimulator/testcard.app/Default-568h@2x.png"    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Default-568h@2x.png" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"3AAE29B1-95D5-4AC4-991B-89BC008E62F1-
+
+CCpResource ../Resources/../proj.ios/Default@2x.png Build/Products/Debug-iphonesimulator/testcard.app/Default@2x.png
+s396957363.444974
+e396957363.455151
+r1
+xCpResource
+x../Resources/../proj.ios/Default@2x.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/testcard.app/Default@2x.pnge20472b316a9b741^ba8374b316a9b741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Default@2x.png000000000080d041^748"CpResource "../Resources/../proj.ios/Default@2x.png" "Build/Products/Debug-iphonesimulator/testcard.app/Default@2x.png"    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Default@2x.png" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"13AF2AF2-4BB3-49D2-A909-67C35BD731AE-
+
+CCpResource ../Resources/../proj.ios/Icon-114.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-114.png
+s396957363.438244
+e396957363.441253
+r1
+xCpResource
+x../Resources/../proj.ios/Icon-114.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon-114.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon-114.pngf45370b316a9b741^6afa70b316a9b741^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-114.png000000000080d041^736"CpResource ../Resources/../proj.ios/Icon-114.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-114.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Icon-114.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"68821778-DC0A-41C4-ACFF-A7066A8E1E32-
+
+CCpResource ../Resources/../proj.ios/Icon-144.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-144.png
+s396957363.442412
+e396957363.447476
+r1
+xCpResource
+x../Resources/../proj.ios/Icon-144.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon-144.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon-144.png257a71b316a9b741^819272b316a9b741^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-144.png000000000080d041^736"CpResource ../Resources/../proj.ios/Icon-144.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-144.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Icon-144.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"F34F491A-E428-4312-8531-A642FDB0085C-
+
+CCpResource ../Resources/../proj.ios/Icon-57.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-57.png
+s396957363.436346
+e396957363.439434
+r1
+xCpResource
+x../Resources/../proj.ios/Icon-57.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon-57.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon-57.pnge1d46fb316a9b741^308070b316a9b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-57.png000000000080d041^733"CpResource ../Resources/../proj.ios/Icon-57.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-57.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Icon-57.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"6DE78F16-C089-4E4B-B5E4-91BAB2561BA9-
+
+CCpResource ../Resources/../proj.ios/Icon-72.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png
+s396957363.439363
+e396957363.442052
+r1
+xCpResource
+x../Resources/../proj.ios/Icon-72.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png6b9970b316a9b741^ed2971b316a9b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png000000000080d041^733"CpResource ../Resources/../proj.ios/Icon-72.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/../proj.ios/Icon-72.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"B991EE29-AEC3-4528-8E23-DF6515727FFF-
+
+CCpResource ../Resources/CloseNormal.png Build/Products/Debug-iphonesimulator/testcard.app/CloseNormal.png
+s396957363.448030
+e396957363.454129
+r1
+xCpResource
+x../Resources/CloseNormal.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/CloseNormal.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/testcard.app/CloseNormal.png4dd872b316a9b741^424274b316a9b741^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/CloseNormal.png000000000080d041^721"CpResource ../Resources/CloseNormal.png Build/Products/Debug-iphonesimulator/testcard.app/CloseNormal.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/CloseNormal.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"7D83317F-823D-4D15-BBDC-21A7052D80BA-
+
+CCpResource ../Resources/CloseSelected.png Build/Products/Debug-iphonesimulator/testcard.app/CloseSelected.png
+s396957363.448037
+e396957363.450768
+r1
+xCpResource
+x../Resources/CloseSelected.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/CloseSelected.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphonesimulator/testcard.app/CloseSelected.png4ad172b316a9b741^776573b316a9b741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/CloseSelected.png000000000080d041^727"CpResource ../Resources/CloseSelected.png Build/Products/Debug-iphonesimulator/testcard.app/CloseSelected.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/CloseSelected.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"616D7EE8-3479-4711-AFFB-F57389359D08-
+
+CCpResource ../Resources/Default.png Build/Products/Debug-iphonesimulator/testcard.app/Default.png
+s396957363.431861
+e396957363.438182
+r1
+xCpResource
+x../Resources/Default.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/testcard.app/Default.png7dae6eb316a9b741^7f3470b316a9b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Default.png000000000080d041^709"CpResource ../Resources/Default.png Build/Products/Debug-iphonesimulator/testcard.app/Default.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Default.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"FEC9693C-B6F9-4E72-9EE8-F48D9847E742-
+
+CCpResource ../Resources/HelloWorld.png Build/Products/Debug-iphonesimulator/testcard.app/HelloWorld.png
+s396957363.452027
+e396957363.458271
+r1
+xCpResource
+x../Resources/HelloWorld.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/HelloWorld.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/testcard.app/HelloWorld.png03d173b316a9b741^9f5a75b316a9b741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/HelloWorld.png000000000080d041^718"CpResource ../Resources/HelloWorld.png Build/Products/Debug-iphonesimulator/testcard.app/HelloWorld.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/HelloWorld.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"853E5F75-5D34-490E-B0F3-2FBA4EE9CD27-
+
+CCpResource ../Resources/Icon-72.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png
+s396957363.440811
+e396957363.443672
+r1
+xCpResource
+x../Resources/Icon-72.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png78ef70b316a9b741^c89671b316a9b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png000000000080d041^709"CpResource ../Resources/Icon-72.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-72.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon-72.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"E82FEC8C-1E8E-4D18-BDED-1CB2319ECEE5-
+
+CCpResource ../Resources/Icon-Small-50.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small-50.png
+s396957363.467547
+e396957363.470024
+r1
+xCpResource
+x../Resources/Icon-Small-50.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon-Small-50.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small-50.pngb0c877b316a9b741^c15378b316a9b741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small-50.png000000000080d041^727"CpResource ../Resources/Icon-Small-50.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small-50.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon-Small-50.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"D1E5E5D6-9FCA-4AE6-8DF6-750C0C3CD466-
+
+CCpResource ../Resources/Icon-Small.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small.png
+s396957363.469447
+e396957363.476148
+r1
+xCpResource
+x../Resources/Icon-Small.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon-Small.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small.png814378b316a9b741^24ee79b316a9b741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small.png000000000080d041^718"CpResource ../Resources/Icon-Small.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon-Small.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"59BB76BE-FC75-4C7A-9728-6AA885B7BD93-
+
+CCpResource ../Resources/Icon-Small@2x.png Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small@2x.png
+s396957363.471192
+e396957363.476173
+r1
+xCpResource
+x../Resources/Icon-Small@2x.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon-Small@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small@2x.pngd8ba78b316a9b741^aef179b316a9b741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small@2x.png000000000080d041^733"CpResource "../Resources/Icon-Small@2x.png" "Build/Products/Debug-iphonesimulator/testcard.app/Icon-Small@2x.png"    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon-Small@2x.png" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"07F40D67-6053-4BA1-B2A2-9FD5A56C57C9-
+
+CCpResource ../Resources/Icon.png Build/Products/Debug-iphonesimulator/testcard.app/Icon.png
+s396957363.472868
+e396957363.476656
+r1
+xCpResource
+x../Resources/Icon.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon.png6b2c79b316a9b741^c0087ab316a9b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon.png000000000080d041^700"CpResource ../Resources/Icon.png Build/Products/Debug-iphonesimulator/testcard.app/Icon.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"D95A8239-8E07-4E4E-8333-17C672B642B0-
+
+CCpResource ../Resources/Icon@2x.png Build/Products/Debug-iphonesimulator/testcard.app/Icon@2x.png
+s396957363.477432
+e396957363.482788
+r1
+xCpResource
+x../Resources/Icon@2x.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/testcard.app/Icon@2x.png228d7ab316a9b741^42987bb316a9b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Icon@2x.png000000000080d041^715"CpResource "../Resources/Icon@2x.png" "Build/Products/Debug-iphonesimulator/testcard.app/Icon@2x.png"    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/Icon@2x.png" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"59CA59C5-1958-4B6D-8170-575AD01C47AD-
+
+CCpResource ../Resources/backgroud.png Build/Products/Debug-iphonesimulator/testcard.app/backgroud.png
+s396957363.455373
+e396957363.460223
+r1
+xCpResource
+x../Resources/backgroud.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/backgroud.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/testcard.app/backgroud.png33a674b316a9b741^70d175b316a9b741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/backgroud.png000000000080d041^715"CpResource ../Resources/backgroud.png Build/Products/Debug-iphonesimulator/testcard.app/backgroud.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/backgroud.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"7DD85AD8-F3BA-41A7-8B7C-A6A78108DB49-
+
+CCpResource ../Resources/background.png Build/Products/Debug-iphonesimulator/testcard.app/background.png
+s396957363.455328
+e396957363.458997
+r1
+xCpResource
+x../Resources/background.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/background.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/testcard.app/background.pngf0a574b316a9b741^518775b316a9b741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/background.png000000000080d041^718"CpResource ../Resources/background.png Build/Products/Debug-iphonesimulator/testcard.app/background.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/background.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"A257AFA8-0D61-4361-86E7-3FC0DDE4C3F4-
+
+CCpResource ../Resources/background2.jpg Build/Products/Debug-iphonesimulator/testcard.app/background2.jpg
+s396957363.459455
+e396957363.462834
+r1
+xCpResource
+x../Resources/background2.jpg
+xBuild/Products/Debug-iphonesimulator/testcard.app/background2.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/testcard.app/background2.jpg5abb75b316a9b741^6a8476b316a9b741^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/background2.jpg000000000080d041^721"CpResource ../Resources/background2.jpg Build/Products/Debug-iphonesimulator/testcard.app/background2.jpg    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/background2.jpg /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"3AFEF79D-7D84-46EF-95D2-9957AEC3A98C-
+
+CCpResource ../Resources/check.jpg Build/Products/Debug-iphonesimulator/testcard.app/check.jpg
+s396957363.459530
+e396957363.466528
+r1
+xCpResource
+x../Resources/check.jpg
+xBuild/Products/Debug-iphonesimulator/testcard.app/check.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphonesimulator/testcard.app/check.jpg61c175b316a9b741^3f6e77b316a9b741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/check.jpg000000000080d041^703"CpResource ../Resources/check.jpg Build/Products/Debug-iphonesimulator/testcard.app/check.jpg    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/check.jpg /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"1FA45769-9880-494C-8A26-B9F9A5954A3B-
+
+CCpResource ../Resources/explosion.png Build/Products/Debug-iphonesimulator/testcard.app/explosion.png
+s396957363.464017
+e396957363.468305
+r1
+xCpResource
+x../Resources/explosion.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/explosion.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/testcard.app/explosion.pngb4e776b316a9b741^5ce377b316a9b741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/explosion.png000000000080d041^715"CpResource ../Resources/explosion.png Build/Products/Debug-iphonesimulator/testcard.app/explosion.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/explosion.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"D8608B8A-F6C6-4898-B278-DC6F9B37D1BE-
+
+CCpResource ../Resources/iTunesArtwork Build/Products/Debug-iphonesimulator/testcard.app/iTunesArtwork
+s396957363.477440
+e396957363.481813
+r1
+xCpResource
+x../Resources/iTunesArtwork
+xBuild/Products/Debug-iphonesimulator/testcard.app/iTunesArtwork
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/testcard.app/iTunesArtwork17657ab316a9b741^e65b7bb316a9b741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/iTunesArtwork000000000080d041^715"CpResource ../Resources/iTunesArtwork Build/Products/Debug-iphonesimulator/testcard.app/iTunesArtwork    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/iTunesArtwork /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"902BFF00-7E83-432B-B9ED-A0A1F45D1CD6-
+
+CCpResource ../Resources/moguiyu.png Build/Products/Debug-iphonesimulator/testcard.app/moguiyu.png
+s396957363.477582
+e396957363.482158
+r1
+xCpResource
+x../Resources/moguiyu.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/moguiyu.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/testcard.app/moguiyu.pngea5b7ab316a9b741^b96d7bb316a9b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/moguiyu.png000000000080d041^709"CpResource ../Resources/moguiyu.png Build/Products/Debug-iphonesimulator/testcard.app/moguiyu.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/moguiyu.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"D64C12DA-150A-4FAD-BA10-A193FEE913D1-
+
+CCpResource ../Resources/newback.jpg Build/Products/Debug-iphonesimulator/testcard.app/newback.jpg
+s396957363.482969
+e396957363.486043
+r1
+xCpResource
+x../Resources/newback.jpg
+xBuild/Products/Debug-iphonesimulator/testcard.app/newback.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/testcard.app/newback.jpg44be7bb316a9b741^9f767cb316a9b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/newback.jpg000000000080d041^709"CpResource ../Resources/newback.jpg Build/Products/Debug-iphonesimulator/testcard.app/newback.jpg    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/newback.jpg /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"C247F0B0-809C-4AEE-B79C-F3B0222EC802-
+
+CCpResource ../Resources/player.jpg Build/Products/Debug-iphonesimulator/testcard.app/player.jpg
+s396957363.482974
+e396957363.487551
+r1
+xCpResource
+x../Resources/player.jpg
+xBuild/Products/Debug-iphonesimulator/testcard.app/player.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphonesimulator/testcard.app/player.jpg90bc7bb316a9b741^46d07cb316a9b741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/player.jpg000000000080d041^706"CpResource ../Resources/player.jpg Build/Products/Debug-iphonesimulator/testcard.app/player.jpg    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../Resources/player.jpg /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"6CECF0BC-F786-4DE8-BDAB-478E1EC87103-
+
+CCpResource Default.png Build/Products/Debug-iphonesimulator/testcard.app/Default.png
+s396957363.431806
+e396957363.437018
+r1
+xCpResource
+xDefault.png
+xBuild/Products/Debug-iphonesimulator/testcard.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/testcard.app/Default.pngd7a56eb316a9b741^26e46fb316a9b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Default.png000000000080d041^683"CpResource Default.png Build/Products/Debug-iphonesimulator/testcard.app/Default.png    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Default.png /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app36"CAE995DF-57A0-494E-94C1-656FBCD44AA2-
+
+CGenerateDSYMFile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app.dSYM /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/testcard
+r0
+
+CLd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/testcard normal i386
+r0
+
+CProcessInfoPlistFile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Info.plist Info.plist
+s396957363.420193
+e396957363.423732
+r1
+xProcessInfoPlistFile
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistc2a56bb316a9b741^92796cb316a9b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Info.plist0000000000000000^753"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/testcard.app/Info.plist Info.plist    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app/Info.plist36"87133161-4533-4BC2-BE17-99E9F3B1D7D0-
+
+CProcessPCH /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-eayxlabhljsznodlenesqbtsfnqp/Prefix.pch.pth Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396957363.495878
+e396957363.919887
+r1
+xProcessPCH
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-eayxlabhljsznodlenesqbtsfnqp/Prefix.pch.pth
+xPrefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Precompile Prefix.pch041f7fb316a9b741^3d7eebb316a9b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Prefix.pch0000000000000000^4796"ProcessPCH Build/Intermediates/PrecompiledHeaders/Prefix-eayxlabhljsznodlenesqbtsfnqp/Prefix.pch.pth Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.3 -iquote /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-generated-files.hmap -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-own-target-headers.hmap -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-all-target-headers.hmap -iquote /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-project-headers.hmap -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../CocosDenshion/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../external/chipmunk/include/constraints -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../external/chipmunk/include/chipmunk -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../extensions -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/kazmath/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../external -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/platform/third_party/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/platform/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/platform/ios/Simulation -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/DerivedSources/i386 -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/DerivedSources -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator -O2 --serialize-diagnostics /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-eayxlabhljsznodlenesqbtsfnqp/Prefix.pch.dia -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Prefix.pch -o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-eayxlabhljsznodlenesqbtsfnqp/Prefix.pch.pth -MMD -MT dependencies -MF /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-eayxlabhljsznodlenesqbtsfnqp/Prefix.pch.d36"00EF6A8F-A631-4822-BB7E-C06D140D968B-
+
+CProcessPCH /Users/handx/Library/Developer/Xcode/DerivedData/testcard-bgzehklxqliastbviigtbndkdiep/Index/PrecompiledHeaders/Prefix-cxkjrhlqaxwynxgraqtuiwcohzos_ast/Prefix.pch.pth Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-bsikszxcvsphombomgwidysudcni/Prefix.pch.pth Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s396957363.495720
+e396957363.515663
+r0
+xProcessPCH++
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-bsikszxcvsphombomgwidysudcni/Prefix.pch.pth
+xPrefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: invalid deployment target for -stdlib=libc++ (requires iOS 5.0 or later)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Precompile Prefix.pch24277fb316a9b741^0e1484b316a9b741^-212"clang: error: invalid deployment target for -stdlib=libc++ (requires iOS 5.0 or later)Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-396957363#18446744073709551615#0#-2#--29"Apple LLVM compiler 4.2 Error--0#0#0#-19%DVTDocumentLocation3@100"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Prefix.pch0000000000000000^4918"ProcessPCH++ Build/Intermediates/PrecompiledHeaders/Prefix-bsikszxcvsphombomgwidysudcni/Prefix.pch.pth Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.3 -iquote /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-generated-files.hmap -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-own-target-headers.hmap -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-all-target-headers.hmap -iquote /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-project-headers.hmap -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../CocosDenshion/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../external/chipmunk/include/constraints -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../external/chipmunk/include/chipmunk -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../extensions -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/kazmath/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../external -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/platform/third_party/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/platform/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/platform/ios/Simulation -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/DerivedSources/i386 -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/DerivedSources -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator -O2 --serialize-diagnostics /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-bsikszxcvsphombomgwidysudcni/Prefix.pch.dia -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Prefix.pch -o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-bsikszxcvsphombomgwidysudcni/Prefix.pch.pth -MMD -MT dependencies -MF /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-bsikszxcvsphombomgwidysudcni/Prefix.pch.d36"D4DD30D4-CA6F-4B7A-BA34-D91014A5DD20-
+
+CProcessPCH++ /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-enjysejfauwprffhkepsyleuovjq/Prefix.pch.pth Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s396957363.495697
+e396957363.515626
+r0
+xProcessPCH++
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-enjysejfauwprffhkepsyleuovjq/Prefix.pch.pth
+xPrefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: invalid deployment target for -stdlib=libc++ (requires iOS 5.0 or later)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Precompile Prefix.pchf9117fb316a9b741^7b1684b316a9b741^-212"clang: error: invalid deployment target for -stdlib=libc++ (requires iOS 5.0 or later)Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-396957363#18446744073709551615#0#-2#--29"Apple LLVM compiler 4.2 Error--0#0#0#-19%DVTDocumentLocation3@100"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Prefix.pch0000000000000000^4691"ProcessPCH++ Build/Intermediates/PrecompiledHeaders/Prefix-enjysejfauwprffhkepsyleuovjq/Prefix.pch.pth Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=4.3 -iquote /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-generated-files.hmap -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-own-target-headers.hmap -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-all-target-headers.hmap -iquote /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/testcard-project-headers.hmap -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../CocosDenshion/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../external/chipmunk/include/constraints -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../external/chipmunk/include/chipmunk -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../extensions -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/kazmath/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../external -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/platform/third_party/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/platform/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/../../../cocos2dx/platform/ios/Simulation -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/DerivedSources/i386 -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/testcard.build/Debug-iphonesimulator/testcard.build/DerivedSources -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator -O2 --serialize-diagnostics /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-enjysejfauwprffhkepsyleuovjq/Prefix.pch.dia -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Prefix.pch -o /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-enjysejfauwprffhkepsyleuovjq/Prefix.pch.pth -MMD -MT dependencies -MF /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/PrecompiledHeaders/Prefix-enjysejfauwprffhkepsyleuovjq/Prefix.pch.d36"23AD1A18-166A-4547-BAA7-8433B73AA4BB-
+
+CProcessPCH++ /Users/handx/Library/Developer/Xcode/DerivedData/testcard-bgzehklxqliastbviigtbndkdiep/Index/PrecompiledHeaders/Prefix-anbxrnkiocdhecdnvuatqmmzinyw_ast/Prefix.pch.pth Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/handx/Library/Developer/Xcode/DerivedData/testcard-bgzehklxqliastbviigtbndkdiep/Index/PrecompiledHeaders/Prefix-gykwmyjfmoviijbophrctpcwmmkx_ast/Prefix.pch.pth Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/testcard.app
+r0
+

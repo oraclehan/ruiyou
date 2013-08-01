@@ -1,0 +1,938 @@
+Tchipmunk Mac
+v5
+r1
+cCheck dependencies
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/chipmunk.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpConstraint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedRotarySpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedSpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGearJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGrooveJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPinJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPivotJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRatchetJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRotaryLimitJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSimpleMotor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSlideJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArbiter.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArray.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBB.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBBTree.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBody.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpCollision.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpHashSet.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpPolyShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpace.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceHash.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceComponent.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceStep.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceQuery.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpatialIndex.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSweep1D.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpVect.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libchipmunk Mac.a" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C65C1B00000000000000AA
+t1371954203
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000515CB4A20000000000004523
+t1365030050
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h
+c00000000515CB4A20000000000001A3A
+t1365030050
+s6714
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/4.2/include/stdarg.h
+c00000000515CB4A20000000000000810
+t1365030050
+s2064
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/chipmunk.h
+c0000000051F717260000000000002166
+t1375147814
+s8550
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/chipmunk_ffi.h
+c0000000051F717260000000000001444
+t1375147814
+s5188
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/chipmunk_private.h
+c0000000051F7172600000000000020B7
+t1375147814
+s8375
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/chipmunk_types.h
+c0000000051F7172600000000000011D0
+t1375147814
+s4560
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/chipmunk_unsafe.h
+c0000000051F717260000000000000A75
+t1375147814
+s2677
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+c0000000051F71726000000000000180A
+t1375147814
+s6154
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+c0000000051F717260000000000000992
+t1375147814
+s2450
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+c0000000051F717260000000000000A12
+t1375147814
+s2578
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+c0000000051F71726000000000000079F
+t1375147814
+s1951
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+c0000000051F7172600000000000008D8
+t1375147814
+s2264
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+c0000000051F717260000000000000782
+t1375147814
+s1922
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+c0000000051F7172600000000000007C9
+t1375147814
+s1993
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+c0000000051F7172600000000000007AB
+t1375147814
+s1963
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+c0000000051F71726000000000000079B
+t1375147814
+s1947
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+c0000000051F7172600000000000006CC
+t1375147814
+s1740
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+c0000000051F717260000000000000817
+t1375147814
+s2071
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/constraints/util.h
+c0000000051F717260000000000000FDC
+t1375147814
+s4060
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/cpArbiter.h
+c0000000051F717260000000000002252
+t1375147814
+s8786
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/cpBB.h
+c0000000051F71726000000000000117B
+t1375147814
+s4475
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/cpBody.h
+c0000000051F717260000000000002572
+t1375147814
+s9586
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/cpPolyShape.h
+c0000000051F717260000000000000AF5
+t1375147814
+s2805
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/cpShape.h
+c0000000051F71726000000000000201B
+t1375147814
+s8219
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/cpSpace.h
+c0000000051F7172600000000000034FF
+t1375147814
+s13567
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+c0000000051F7172600000000000025D3
+t1375147814
+s9683
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk/cpVect.h
+c0000000051F7172600000000000018EA
+t1375147814
+s6378
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/chipmunk.c
+c0000000051F717260000000000002571
+t1375147814
+s9585
+i<stdio.h>
+i<string.h>
+i<stdarg.h>
+i"chipmunk_private.h"
+i"chipmunk_ffi.h"
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpConstraint.c
+c0000000051F717260000000000000781
+t1375147814
+s1921
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedRotarySpring.c
+c0000000051F717260000000000000ED5
+t1375147814
+s3797
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedSpring.c
+c0000000051F717260000000000000FC8
+t1375147814
+s4040
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGearJoint.c
+c0000000051F717260000000000000DCF
+t1375147814
+s3535
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGrooveJoint.c
+c0000000051F71726000000000000134F
+t1375147814
+s4943
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPinJoint.c
+c0000000051F717260000000000000F08
+t1375147814
+s3848
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPivotJoint.c
+c0000000051F717260000000000000E25
+t1375147814
+s3621
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRatchetJoint.c
+c0000000051F717260000000000000ED0
+t1375147814
+s3792
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRotaryLimitJoint.c
+c0000000051F717260000000000000E2C
+t1375147814
+s3628
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSimpleMotor.c
+c0000000051F717260000000000000B68
+t1375147814
+s2920
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSlideJoint.c
+c0000000051F717260000000000000F7A
+t1375147814
+s3962
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArbiter.c
+c0000000051F717260000000000002620
+t1375147814
+s9760
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArray.c
+c0000000051F717260000000000000AE2
+t1375147814
+s2786
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBB.c
+c0000000051F7172600000000000005CF
+t1375147814
+s1487
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBBTree.c
+c0000000051F7172600000000000052DE
+t1375147814
+s21214
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBody.c
+c0000000051F717260000000000001EB0
+t1375147814
+s7856
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpCollision.c
+c0000000051F7172600000000000031C1
+t1375147814
+s12737
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpHashSet.c
+c0000000051F71726000000000000165C
+t1375147814
+s5724
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpPolyShape.c
+c0000000051F717260000000000001BB0
+t1375147814
+s7088
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpShape.c
+c0000000051F7172600000000000027A2
+t1375147814
+s10146
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpace.c
+c0000000051F717260000000000004530
+t1375147814
+s17712
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceComponent.c
+c0000000051F717260000000000002E80
+t1375147814
+s11904
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceHash.c
+c0000000051F717260000000000003D67
+t1375147814
+s15719
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceQuery.c
+c0000000051F717260000000000002423
+t1375147814
+s9251
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceStep.c
+c0000000051F71726000000000000354D
+t1375147814
+s13645
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpatialIndex.c
+c0000000051F71726000000000000097B
+t1375147814
+s2427
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSweep1D.c
+c0000000051F717260000000000001971
+t1375147814
+s6513
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpVect.c
+c0000000051F7172600000000000007D2
+t1375147814
+s2002
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/prime.h
+c0000000051F7172600000000000006EC
+t1375147814
+s1772
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk Mac.LinkFileList
+c0000000051F8D25700000000000013B2
+t1375261271
+s5042
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.o
+t1375261353
+s40092
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.o
+t1375261354
+s40156
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.o
+t1375261354
+s6172
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.o
+t1375261354
+s4496
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.o
+t1375261354
+s47852
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.o
+t1375261354
+s38728
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.o
+t1375261354
+s41216
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.o
+t1375261353
+s14236
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o
+t1375261353
+s18256
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.o
+t1375261353
+s27204
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.o
+t1375261353
+s20508
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.o
+t1375261353
+s33648
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.o
+t1375261354
+s13208
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.o
+t1375261353
+s28700
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.o
+t1375261354
+s29764
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.o
+t1375261354
+s35232
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.o
+t1375261354
+s19648
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o
+t1375261354
+s19400
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.o
+t1375261354
+s44928
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.o
+t1375261354
+s18324
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.o
+t1375261354
+s29216
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.o
+t1375261354
+s49240
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.o
+t1375261354
+s37276
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.o
+t1375261354
+s32212
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.o
+t1375261354
+s30580
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.o
+t1375261354
+s32560
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.o
+t1375261355
+s9628
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.o
+t1375261355
+s18260
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.o
+t1375261355
+s9392
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libchipmunk Mac.a
+t1375261355
+s799552
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/chipmunk.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpConstraint.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedRotarySpring.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedSpring.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGearJoint.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGrooveJoint.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPinJoint.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPivotJoint.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRatchetJoint.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRotaryLimitJoint.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSimpleMotor.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSlideJoint.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArbiter.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArray.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBB.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBBTree.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBody.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpCollision.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpHashSet.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpPolyShape.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpShape.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpace.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceComponent.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceHash.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceQuery.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceStep.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpatialIndex.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSweep1D.c
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpVect.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese04838760aa9b741^48fe38760aa9b741^---0#1#0#--18"Check dependencies36"6096DE05-5D12-41E3-93BE-72970A6823E7-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/chipmunk.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954153.467771
+e396954153.606479
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/chipmunk.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/chipmunk.cfaf177290aa9b741^a3409b290aa9b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/chipmunk.c0000000000000000^3215"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.o" external/chipmunk/src/chipmunk.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/chipmunk.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk.o"36"748101D8-C962-4F37-A672-971A94291756-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArbiter.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.173546
+e396954154.334556
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArbiter.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArbiter.caa9e2c2a0aa9b741^38a4552a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArbiter.c0000000000000000^3221"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.o" external/chipmunk/src/cpArbiter.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArbiter.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArbiter.o"36"5008C523-72BE-4A78-8695-C563DE22E782-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArray.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.202977
+e396954154.292894
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArray.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArray.c7423342a0aa9b741^87f94a2a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArray.c0000000000000000^3209"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.o" external/chipmunk/src/cpArray.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpArray.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpArray.o"36"7BC57C4E-A0D0-4995-9230-28BA6E320679-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBB.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.281889
+e396954154.379773
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBB.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBB.c4b5b482a0aa9b741^8046612a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBB.c0000000000000000^3191"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.o" external/chipmunk/src/cpBB.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBB.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBB.o"36"E769A7D4-B6D7-41A0-8417-1CE526DEC494-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBBTree.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.294313
+e396954154.475954
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBBTree.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBBTree.c5d864b2a0aa9b741^7ee5792a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBBTree.c0000000000000000^3215"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.o" external/chipmunk/src/cpBBTree.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBBTree.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBBTree.o"36"4E0CE23E-9A60-4203-813F-D2E3860EBC58-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBody.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.335962
+e396954154.513201
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBody.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBody.caf3e562a0aa9b741^03cd832a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBody.c0000000000000000^3203"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.o" external/chipmunk/src/cpBody.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpBody.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpBody.o"36"6991A77D-A7D8-4D0D-937F-C37D9E68593F-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpCollision.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.381081
+e396954154.659901
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpCollision.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpCollision.cecc0612a0aa9b741^c4eda82a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpCollision.c0000000000000000^3233"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.o" external/chipmunk/src/cpCollision.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpCollision.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpCollision.o"36"ECC28F9C-E5C2-4D43-AF2D-270359EED5C0-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpConstraint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954153.608313
+e396954153.712688
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpConstraint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpConstraint.c14e89b290aa9b741^f470b6290aa9b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpConstraint.c0000000000000000^3263"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.o" external/chipmunk/src/constraints/cpConstraint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpConstraint.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpConstraint.o"36"9C7B4BD7-EF81-4F54-9984-27FC6D104C42-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedRotarySpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954153.650012
+e396954153.738655
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedRotarySpring.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedRotarySpring.c3195a6290aa9b741^4017bd290aa9b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedRotarySpring.c0000000000000000^3311"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o" external/chipmunk/src/constraints/cpDampedRotarySpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedRotarySpring.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedRotarySpring.o"36"7B98D37E-349D-4BF2-9B8E-C7580E579F92-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedSpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954153.714270
+e396954153.835525
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedSpring.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedSpring.c0210b7290aa9b741^fce3d5290aa9b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedSpring.c0000000000000000^3275"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.o" external/chipmunk/src/constraints/cpDampedSpring.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpDampedSpring.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpDampedSpring.o"36"93DD3EF1-CB27-4DB1-9CE0-F3EE1F9AAC29-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGearJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954153.740073
+e396954153.832195
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGearJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGearJoint.c87a5bd290aa9b741^6c09d5290aa9b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGearJoint.c0000000000000000^3257"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.o" external/chipmunk/src/constraints/cpGearJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGearJoint.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGearJoint.o"36"07DE2AE9-731F-4EF5-9B2B-9DED83176BC7-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGrooveJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954153.833619
+e396954153.968177
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGrooveJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGrooveJoint.c6895d5290aa9b741^12d9f7290aa9b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGrooveJoint.c0000000000000000^3269"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.o" external/chipmunk/src/constraints/cpGrooveJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpGrooveJoint.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpGrooveJoint.o"36"1000E238-CB55-4501-A068-FE7A59E3AB15-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpHashSet.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.491166
+e396954154.660146
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpHashSet.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpHashSet.c0a9f812a0aa9b741^dbf7a82a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpHashSet.c0000000000000000^3221"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.o" external/chipmunk/src/cpHashSet.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpHashSet.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpHashSet.o"36"206D1BE9-1096-42AB-9AAA-F4641F39706F-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPinJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954153.836871
+e396954153.952391
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPinJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPinJoint.c957ed6290aa9b741^31cef3290aa9b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPinJoint.c0000000000000000^3251"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.o" external/chipmunk/src/constraints/cpPinJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPinJoint.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPinJoint.o"36"C66B0888-1CFC-497B-ABD7-60FCC373C74E-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPivotJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954153.953901
+e396954154.092520
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPivotJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPivotJoint.c478ef4290aa9b741^70b4172a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPivotJoint.c0000000000000000^3263"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.o" external/chipmunk/src/constraints/cpPivotJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpPivotJoint.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPivotJoint.o"36"67A70A60-26D4-45FD-95A2-A1BC469EE882-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpPolyShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.520505
+e396954154.664611
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpPolyShape.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpPolyShape.c9067872a0aa9b741^9e23aa2a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpPolyShape.c0000000000000000^3233"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.o" external/chipmunk/src/cpPolyShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpPolyShape.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpPolyShape.o"36"7C4A8820-5A09-460B-97B8-2481B232914C-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRatchetJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954153.969590
+e396954154.075902
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRatchetJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRatchetJoint.c4374f8290aa9b741^be6c132a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRatchetJoint.c0000000000000000^3275"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.o" external/chipmunk/src/constraints/cpRatchetJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRatchetJoint.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRatchetJoint.o"36"D3361E8C-FFD5-46ED-B7AD-18FBE181461A-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRotaryLimitJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.078949
+e396954154.172163
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRotaryLimitJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRotaryLimitJoint.caa64142a0aa9b741^38122c2a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRotaryLimitJoint.c0000000000000000^3299"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o" external/chipmunk/src/constraints/cpRotaryLimitJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpRotaryLimitJoint.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpRotaryLimitJoint.o"36"50CDE43F-F7EF-43A0-B991-5F6553EB99D9-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.661233
+e396954154.806582
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpShape.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpShape.ce42eaa2a0aa9b741^857ace2a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpShape.c0000000000000000^3209"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.o" external/chipmunk/src/cpShape.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpShape.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpShape.o"36"3AC961F7-AA5A-4FA0-995D-2AE6D1D8B428-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSimpleMotor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.093936
+e396954154.200716
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSimpleMotor.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSimpleMotor.c573d182a0aa9b741^3081332a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSimpleMotor.c0000000000000000^3269"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.o" external/chipmunk/src/constraints/cpSimpleMotor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSimpleMotor.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSimpleMotor.o"36"D75367C9-8906-4221-A0D0-89099A79AC27-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSlideJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.151827
+e396954154.280530
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSlideJoint.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSlideJoint.ce10b272a0aa9b741^70cf472a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSlideJoint.c0000000000000000^3263"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.o" external/chipmunk/src/constraints/cpSlideJoint.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/constraints/cpSlideJoint.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSlideJoint.o"36"2AA4952E-3B89-4818-8DF6-2F971E72620B-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpace.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.664525
+e396954154.797870
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpace.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpace.c454baa2a0aa9b741^1840cc2a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpace.c0000000000000000^3209"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.o" external/chipmunk/src/cpSpace.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpace.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpace.o"36"631D5293-1F7A-4910-A223-4C472FC7BB86-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceComponent.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.665968
+e396954154.782011
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceComponent.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceComponent.c1ea5aa2a0aa9b741^ec2ec82a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceComponent.c0000000000000000^3263"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.o" external/chipmunk/src/cpSpaceComponent.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceComponent.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceComponent.o"36"D71CCCB7-2CF4-431A-9E8B-B62F9C05AD5B-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceHash.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.783395
+e396954154.937012
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceHash.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceHash.c90bfc82a0aa9b741^ecbdf02a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceHash.c0000000000000000^3233"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.o" external/chipmunk/src/cpSpaceHash.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceHash.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceHash.o"36"EFE84F5F-69B4-4419-87D7-F6A7569D9AFB-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceQuery.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.799798
+e396954154.921281
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceQuery.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceQuery.c5ef5cc2a0aa9b741^06d8eb2a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceQuery.c0000000000000000^3239"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.o" external/chipmunk/src/cpSpaceQuery.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceQuery.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceQuery.o"36"F7151AE0-84B9-406B-85EB-46B950AAFA07-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceStep.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.807983
+e396954154.923750
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceStep.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceStep.c5708cf2a0aa9b741^5f79ec2a0aa9b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceStep.c0000000000000000^3233"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.o" external/chipmunk/src/cpSpaceStep.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpaceStep.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpaceStep.o"36"599BB1C6-C064-4778-B61F-E98C748CBE8F-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpatialIndex.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.923949
+e396954155.024178
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpatialIndex.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpatialIndex.c36b1ec2a0aa9b741^a12e062b0aa9b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpatialIndex.c0000000000000000^3251"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.o" external/chipmunk/src/cpSpatialIndex.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSpatialIndex.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSpatialIndex.o"36"DFD0CED7-2572-4CC8-A0D0-8FB44357C920-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSweep1D.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.925099
+e396954155.030240
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSweep1D.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSweep1D.c1805ed2a0aa9b741^97e1072b0aa9b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSweep1D.c0000000000000000^3221"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.o" external/chipmunk/src/cpSweep1D.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpSweep1D.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpSweep1D.o"36"6C57E84B-863B-4EB7-B080-61D691761AE9-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpVect.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s396954154.942384
+e396954155.055239
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpVect.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpVect.cab7bf42a0aa9b741^9f3a0e2b0aa9b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpVect.c0000000000000000^3203"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.o" external/chipmunk/src/cpVect.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-generated-files.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-own-target-headers.hmap" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-all-target-headers.hmap" -iquote "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/chipmunk Mac-project-headers.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/include/chipmunk "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources/x86_64" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/external/chipmunk/src/cpVect.c -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/cpVect.o"36"DA3C3F72-6476-40AA-A524-02F12229E864-
+
+CLibtool "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libchipmunk Mac.a" normal x86_64
+s396954155.213706
+e396954155.245132
+r1
+xLibtool
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libchipmunk Mac.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Libtool "projects/testcard/proj.ios/Build/Products/Debug/libchipmunk Mac.a" normal x86_642cd4362b0aa9b741^fdbf3e2b0aa9b741^---0#0#0#--834"Libtool "projects/testcard/proj.ios/Build/Products/Debug/libchipmunk Mac.a" normal x86_64    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug -filelist "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug/chipmunk Mac.build/Objects-normal/x86_64/chipmunk Mac.LinkFileList" -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug/libchipmunk Mac.a"36"912E0E33-656B-433B-94CE-FFB3090C4305-
+

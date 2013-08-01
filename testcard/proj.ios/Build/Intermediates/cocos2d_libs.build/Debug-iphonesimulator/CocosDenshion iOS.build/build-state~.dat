@@ -1,0 +1,170 @@
+TCocosDenshion iOS
+v5
+r1
+cCheck dependencies
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDAudioManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDOpenALSupport.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CocosDenshion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine_objc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libCocosDenshion iOS.a" normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051C65C520000000000000110
+t1371954258
+s272
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDAudioManager.h
+c0000000051F7172600000000000026ED
+t1375147814
+s9965
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDAudioManager.m
+c0000000051F71726000000000000781D
+t1375147814
+s30749
+i"CDAudioManager.h"
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDOpenALSupport.m
+c0000000051F717260000000000002AA4
+t1375147814
+s10916
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CocosDenshion.m
+c0000000051F71726000000000000CEA5
+t1375147814
+s52901
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine.mm
+c0000000051F717260000000000001DE5
+t1375147814
+s7653
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine_objc.m
+c0000000051F717260000000000001663
+t1375147814
+s5731
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion iOS.LinkFileList
+c0000000051F8DEDA00000000000003DF
+t1375264474
+s991
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o
+t2
+s0
+
+N/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libCocosDenshion iOS.a
+t2
+s0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDAudioManager.m
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDOpenALSupport.m
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CocosDenshion.m
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine.mm
+r0
+
+CBuild AST from /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine_objc.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4cfab75a16a9b741^d3bfcc5a16a9b741^---0#1#0#--18"Check dependencies36"8D67C860-CAD7-4143-A0F0-9B3605392D4B-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDAudioManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396957361.290978
+e396957361.834075
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDAudioManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDAudioManager.m3fad4ab116a9b741^7383d5b116a9b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDAudioManager.m0000000000000000^3862"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.o" CocosDenshion/ios/CDAudioManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/CocosDenshion iOS.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources/i386" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDAudioManager.m -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.o"36"CA5E36C8-43AD-471A-8424-CFF12A8D47C0-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDOpenALSupport.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396957361.328048
+e396957361.561885
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDOpenALSupport.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDOpenALSupport.m202754b116a9b741^4ce38fb116a9b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDOpenALSupport.m0000000000000000^3868"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.o" CocosDenshion/ios/CDOpenALSupport.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/CocosDenshion iOS.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources/i386" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CDOpenALSupport.m -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.o"36"A8F5DEC4-CFE2-4D71-8040-07EFEF57E3A9-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CocosDenshion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396957361.563453
+e396957361.995917
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CocosDenshion.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CocosDenshion.m9c6f90b116a9b741^b6f2feb116a9b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CocosDenshion.m0000000000000000^3856"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.o" CocosDenshion/ios/CocosDenshion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/CocosDenshion iOS.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources/i386" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/CocosDenshion.m -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.o"36"D3D95766-EC5A-47DE-AA65-CE57B0E94F50-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s396957361.835559
+e396957363.359149
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine.mm9b3bd6b116a9b741^99f05bb316a9b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine.mm0000000000000000^3999"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.o" CocosDenshion/ios/SimpleAudioEngine.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/CocosDenshion iOS.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources/i386" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine.mm -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.o"36"2DBDF5B2-8117-4161-82E5-366EE56E7FD7-
+
+CCompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o" /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine_objc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s396957361.997258
+e396957362.384875
+r1
+xCompileC
+xprojects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine_objc.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine_objc.m4279ffb116a9b741^ec8562b216a9b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine_objc.m0000000000000000^3910"CompileC "projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o" CocosDenshion/ios/SimpleAudioEngine_objc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/CocosDenshion iOS.hmap" -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/platform/ios -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/cocos2dx/kazmath/include -I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources/i386" "-I/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/DerivedSources" -F/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.d" --serialize-diagnostics "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.dia" -c /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/CocosDenshion/ios/SimpleAudioEngine_objc.m -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o"36"839722C7-B597-4956-A35C-7672DCB7BF93-
+
+CLibtool "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libCocosDenshion iOS.a" normal i386
+s396957363.365981
+e396957363.378244
+r1
+xLibtool
+x/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libCocosDenshion iOS.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Libtool "projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libCocosDenshion iOS.a" normal i386f5d95db316a9b741^6bd360b316a9b741^---0#0#0#--1125"Libtool "projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libCocosDenshion iOS.a" normal i386    cd /Users/handx/Downloads/cocos2d-x-3.0alpha0-pre    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator -filelist "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Intermediates/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion iOS.LinkFileList" -o "/Users/handx/Downloads/cocos2d-x-3.0alpha0-pre/projects/testcard/proj.ios/Build/Products/Debug-iphonesimulator/libCocosDenshion iOS.a"36"A9B6A18D-3D3C-4EB9-BB8D-F56A67E0A33E-
+
