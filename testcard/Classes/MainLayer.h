@@ -12,7 +12,7 @@
 #include "cocos2d.h"
 #include "cocos-ext.h"
 
-class MainLayer : public cocos2d::CCLayer
+class MainLayer : public cocos2d::Layer
 {
 public:
     // Method 'init' in cocos2d-x returns bool, instead of 'id' in cocos2d-iphone (an object pointer)
@@ -21,7 +21,7 @@ public:
     // preprocessor macro for "static create()" constructor ( node() deprecated )
     CREATE_FUNC(MainLayer);
     
-    void onChangeScene(cocos2d::CCObject*, cocos2d::extension::CCControlEvent);
+    void onChangeScene(cocos2d::Object*, cocos2d::extension::Control::EventType);
 };
 
 

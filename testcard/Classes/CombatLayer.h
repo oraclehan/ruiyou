@@ -17,13 +17,13 @@ using namespace cocos2d;
 
 
 //背景，包括背景图片，音乐，背景动画等等
-class CBackGround : public CCObject
+class CBackGround : public Object
 {
     
 };
 
 //主战斗处理类
-class CombatLayer : public cocos2d::CCLayer
+class CombatLayer : public cocos2d::Layer
 {
 public:
     // Method 'init' in cocos2d-x returns bool, instead of 'id' in cocos2d-iphone (an object pointer)
@@ -37,9 +37,9 @@ public:
     virtual void onEnter();
     virtual void onExit();
 
-    virtual bool ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent);
-    virtual void ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent);
-    virtual void ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent);
+    virtual bool ccTouchBegan(Touch *pTouch, Event *pEvent);
+    virtual void ccTouchMoved(Touch *pTouch, Event *pEvent);
+    virtual void ccTouchEnded(Touch *pTouch, Event *pEvent);
     
 };
 

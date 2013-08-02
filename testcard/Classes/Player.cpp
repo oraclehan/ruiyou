@@ -48,8 +48,8 @@ CSkin::~CSkin()
 void CSkin::loadForPlayer(unsigned int iPlayerId)
 {
     //直接加载一个图片得了
-    CCSprite *pMainBg = CCSprite::create("player.jpg");
-    pMainBg->setAnchorPoint(CCPointZero);
+    Sprite *pMainBg = Sprite::create("player.jpg");
+    pMainBg->setAnchorPoint(Point::ZERO);
     
     setContentSize(pMainBg->getContentSize());
     addChild(pMainBg);
@@ -58,14 +58,14 @@ void CSkin::loadForPlayer(unsigned int iPlayerId)
     
     if (0 == iPlayerId)
     {
-        CCLabelTTF *pLabel = CCLabelTTF::create("Me!", "Marker Felt", 30);
-        pLabel->setPosition(ccp(getContentSize().width/2, getContentSize().height/2));
+        LabelTTF *pLabel = LabelTTF::create("Me!", "Marker Felt", 30);
+        pLabel->setPosition(Point(getContentSize().width/2, getContentSize().height/2));
         addChild(pLabel);
     }
     else
     {
-        CCLabelTTF *pLabel = CCLabelTTF::create("Enemy!", "Marker Felt", 30);
-        pLabel->setPosition(ccp(getContentSize().width/2, getContentSize().height/2));
+        LabelTTF *pLabel = LabelTTF::create("Enemy!", "Marker Felt", 30);
+        pLabel->setPosition(Point(getContentSize().width/2, getContentSize().height/2));
         addChild(pLabel);
     }
 }
@@ -90,23 +90,23 @@ void CSkin::loadForPlayer(unsigned int iPlayerId)
 //    return CCSizeZero;
 //}
 
-bool CSkin::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)
+bool CSkin::ccTouchBegan(Touch *pTouch, Event *pEvent)
 {
-    CCRect rect(getPosition().x, getPosition().y,getContentSize().width, getContentSize().height);
-    CCPoint pt = CCDirector::sharedDirector()->convertToGL(pTouch->getLocationInView());
+    Rect rect(getPosition().x, getPosition().y,getContentSize().width, getContentSize().height);
+    Point pt = CCDirector::getInstance()->convertToGL(pTouch->getLocationInView());
     if (rect.containsPoint(pt))
     {
         return true;
     }
     return false;
 }
-void CSkin::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)
+void CSkin::ccTouchMoved(Touch *pTouch, Event *pEvent)
 {
     
 }
-void CSkin::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)
+void CSkin::ccTouchEnded(Touch *pTouch, Event *pEvent)
 {
-    CCPoint pt = CCDirector::sharedDirector()->convertToGL(pTouch->getLocationInView());
+    Point pt = CCDirector::getInstance()->convertToGL(pTouch->getLocationInView());
     if (CPlayerManager::sharedPlayerManager()->useSkill(m_iPlayerId))
     {
     //this->convertToNodeSpace(pt)
@@ -118,13 +118,13 @@ void CSkin::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)
 void CSkin::onEnter()
 {
     CCLayer::onEnter();
-    CCDirector::sharedDirector()->getTouchDispatcher()->addTargetedDelegate(this, 1, true);
+    CCDirector::getInstance()->getTouchDispatcher()->addTargetedDelegate(this, 1, true);
 }
 
 void CSkin::onExit()
 {
     CCLayer::onExit();
-    CCDirector::sharedDirector()->getTouchDispatcher()->removeDelegate(this);
+    CCDirector::getInstance()->getTouchDispatcher()->removeDelegate(this);
 }
 
 static CPlayerManager *s_SharedPlayerManager = NULL;

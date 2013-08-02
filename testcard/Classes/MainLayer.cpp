@@ -79,23 +79,23 @@ bool MainLayer::init()
 //    return true;
     
     
-    CCLabelTTF *title = CCLabelTTF::create("Touch Me!3324234", "Marker Felt", 30);
-    CCScale9Sprite *pScaleSprite = CCScale9Sprite::create("Icon-72.png");
-    CCControlButton *button = CCControlButton::create(title, pScaleSprite);
-    button->setPosition(ccp(CCEGLView::sharedOpenGLView()->getVisibleSize().width /2,
-                            CCEGLView::sharedOpenGLView()->getVisibleSize().height /2));
+    LabelTTF *title = LabelTTF::create("Touch Me!3324234", "Marker Felt", 30);
+    Scale9Sprite *pScaleSprite = Scale9Sprite::create("Icon-72.png");
+    ControlButton *button = ControlButton::create(title, pScaleSprite);
+    button->setPosition(Point(EGLView::getInstance()->getVisibleSize().width /2,
+                            EGLView::getInstance()->getVisibleSize().height /2));
     button->setPreferredSize(pScaleSprite->getContentSize());
     addChild(button);
-    button->addTargetWithActionForControlEvents(this, cccontrol_selector(MainLayer::onChangeScene),CCControlEventTouchUpInside);
+    button->addTargetWithActionForControlEvents(this, cccontrol_selector(MainLayer::onChangeScene),Control::EventType::TOUCH_UP_INSIDE);
     
-    CCLabelTTF *pControduce = CCLabelTTF::create("lobby layer!!", "Marker Felt", 50);
-    pControduce->setPosition(ccp(CCDirector::sharedDirector()->getVisibleSize().width/2,
-                                 CCDirector::sharedDirector()->getVisibleSize().height/2 + 100));
+    LabelTTF *pControduce = CCLabelTTF::create("lobby layer!!", "Marker Felt", 50);
+    pControduce->setPosition(Point(CCDirector::getInstance()->getVisibleSize().width/2,
+                                 CCDirector::getInstance()->getVisibleSize().height/2 + 100));
     addChild(pControduce);
     return true;
 }
 
-void MainLayer::onChangeScene(CCObject* pObject, cocos2d::extension::CCControlEvent controlEvent)
+void MainLayer::onChangeScene(Object* pObject, cocos2d::extension::Control::EventType controlEvent)
 {
     CSceneManager::sharedSceneManager()->runWithSceneId(EN_SCENE_COMBAT);
 }

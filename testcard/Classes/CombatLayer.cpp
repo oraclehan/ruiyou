@@ -22,18 +22,18 @@ bool CombatLayer::init()
             return false;
         }
         //加入战斗背景
-        CCSprite * pSprite1 = CCSprite::create("background2.jpg");
+        Sprite * pSprite1 = Sprite::create("background2.jpg");
         CC_BREAK_IF(!pSprite1);
         
-        pSprite1->setPosition(ccp(CCDirector::sharedDirector()->getVisibleSize().width/2,
-                                 CCDirector::sharedDirector()->getVisibleSize().height/2));
+        pSprite1->setPosition(Point(CCDirector::getInstance()->getVisibleSize().width/2,
+                                 CCDirector::getInstance()->getVisibleSize().height/2));
         addChild(pSprite1);
         
         //载入玩家外观
         CPlayer *pPlayer = new CPlayer;
         pPlayer->setPlayerId(0);
         pPlayer->init();
-        pPlayer->getSkin()->setPosition(ccp(20,0));
+        pPlayer->getSkin()->setPosition(Point(20,0));
         
         addChild(pPlayer->getSkin());
 //
@@ -41,7 +41,7 @@ bool CombatLayer::init()
         CPlayer *pNewPlayer = new CPlayer;
         pNewPlayer->setPlayerId(1);
         pNewPlayer->init();
-        pNewPlayer->getSkin()->setPosition(ccp(CCDirector::sharedDirector()->getVisibleSize().width-20
+        pNewPlayer->getSkin()->setPosition(Point(CCDirector::getInstance()->getVisibleSize().width-20
                                            - pNewPlayer->getSkin()->getContentSize().width,0));
         
         addChild(pNewPlayer->getSkin());
@@ -84,24 +84,24 @@ bool CombatLayer::init()
 void CombatLayer::onEnter()
 {
     CCLayer::onEnter();
-    CCDirector::sharedDirector()->getTouchDispatcher()->addTargetedDelegate(this, 2, true);
+    CCDirector::getInstance()->getTouchDispatcher()->addTargetedDelegate(this, 2, true);
 }
 
 void CombatLayer::onExit()
 {
     CCLayer::onExit();
-    CCDirector::sharedDirector()->getTouchDispatcher()->removeDelegate(this);
+    CCDirector::getInstance()->getTouchDispatcher()->removeDelegate(this);
 }
 
-bool CombatLayer::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)
+bool CombatLayer::ccTouchBegan(Touch *pTouch, Event *pEvent)
 {
     return true;
 }
-void CombatLayer::ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent)
+void CombatLayer::ccTouchMoved(Touch *pTouch, Event *pEvent)
 {
     
 }
-void CombatLayer::ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent)
+void CombatLayer::ccTouchEnded(Touch *pTouch, Event *pEvent)
 {
 //    CCPoint pt = CCDirector::sharedDirector()->convertToGL(pTouch->getLocationInView());
 //    CResourceManager::sharedResourceManager()->playEffects(0, pt, this);

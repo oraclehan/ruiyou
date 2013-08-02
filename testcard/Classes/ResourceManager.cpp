@@ -35,17 +35,17 @@ CResourceManager * CResourceManager::sharedResourceManager()
 
 bool CResourceManager::init()
 {
-    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("explosion.plist");
-    CCTextureCache::sharedTextureCache()->addImage("explosion.png");
+    SpriteFrameCache::getInstance()->addSpriteFramesWithFile("explosion.plist");
+    TextureCache::getInstance()->addImage("explosion.png");
     
-    CCArray *frames = CCArray::createWithCapacity(35);
+    Array *frames = Array::createWithCapacity(35);
     for(int i = 1; i <= 35; i++)
     {
-        CCString *frameName;
+        String *frameName;
         
-        frameName=CCString::createWithFormat("explosion_%02d.png",i);
+        frameName=String::createWithFormat("explosion_%02d.png",i);
         
-        CCSpriteFrame *frame = CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName(frameName->getCString());
+        SpriteFrame *frame = SpriteFrameCache::getInstance()->getSpriteFrameByName(frameName->getCString());
         frames->addObject(frame);
     }
     
@@ -54,7 +54,7 @@ bool CResourceManager::init()
     return true;
 }
 
-bool CResourceManager::registerEffects(unsigned int effectId, CCArray *parrFrame)
+bool CResourceManager::registerEffects(unsigned int effectId, Array *parrFrame)
 {
     if (!parrFrame)
     {
@@ -81,10 +81,10 @@ CResourceManager::~CResourceManager()
     
 }
 
-bool CResourceManager::playEffects(unsigned int effectId, const CCPoint &pt, CCLayer *pLayer)
+bool CResourceManager::playEffects(unsigned int effectId, const Point &pt, Layer *pLayer)
 {
 
-    map<unsigned int, CCArray*>::iterator itor;
+    map<unsigned int, Array*>::iterator itor;
     itor = m_mapEffects.find(effectId);
     
     if (itor == m_mapEffects.end())
@@ -93,14 +93,14 @@ bool CResourceManager::playEffects(unsigned int effectId, const CCPoint &pt, CCL
         return false;
     }
     
-    CCSprite *pSprite = CCSprite::createWithSpriteFrame((CCSpriteFrame*)itor->second->objectAtIndex(0));
-    CCAnimation *animation = CCAnimation::createWithSpriteFrames(itor->second);
+    Sprite *pSprite = CCSprite::createWithSpriteFrame((SpriteFrame*)itor->second->objectAtIndex(0));
+    Animation *animation = CCAnimation::createWithSpriteFrames(itor->second);
     animation->setDelayPerUnit(0.05);
     animation->setRestoreOriginalFrame(false);
-    CCAnimate * animate = CCAnimate::create(animation);
-    CCRepeat *repeat = CCRepeat::create(animate, 1);
-    
-    CCFiniteTimeAction * callFunc=CCCallFunc::create(pSprite, callfunc_selector(CCSprite::removeFromParent));
+    Animate * animate = Animate::create(animation);
+    Repeat *repeat = Repeat::create(animate, 1);
+    FiniteTimeAction * callFunc=CallFunc::create(CC_CALLBACK_0(Sprite::removeFromParent, pSprite));
+    //FiniteTimeAction * callFunc=CallFunc::create(pSprite, callfunc_selector(Sprite::removeFromParent));
     pSprite->runAction(CCSequence::create(repeat, callFunc, NULL));
     pSprite->setPosition(pt);
     pLayer->addChild(pSprite);

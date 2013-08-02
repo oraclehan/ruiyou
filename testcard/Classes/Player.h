@@ -14,7 +14,7 @@
 
 using namespace cocos2d;
 
-class CSkin : public CCLayer
+class CSkin : public Layer
 {
 public:
     CSkin();
@@ -30,17 +30,17 @@ public:
     virtual void onEnter();
     virtual void onExit();
     
-    virtual bool ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent);
-    virtual void ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent);
-    virtual void ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent);
+    virtual bool ccTouchBegan(Touch *pTouch, Event *pEvent);
+    virtual void ccTouchMoved(Touch *pTouch, Event *pEvent);
+    virtual void ccTouchEnded(Touch *pTouch, Event *pEvent);
     
-    CC_SYNTHESIZE_RETAIN(CCSprite*, m_pMainBg, MainBg);
+    CC_SYNTHESIZE_RETAIN(Sprite*, m_pMainBg, MainBg);
 };
 
 
 
 //玩家类
-class CPlayer : public CCObject
+class CPlayer : public Object
 {
 public:
     CPlayer();
@@ -78,7 +78,6 @@ public:
 private:
     CPlayerManager();
     
-    CCDictionary m_arrayEnemy;
     
     unsigned int m_uiPlayerId;
 };

@@ -22,15 +22,15 @@ public:
     
     bool init();
     
-    bool playEffects(unsigned int effectId, const CCPoint &pt, CCLayer *pLayer);
+    bool playEffects(unsigned int effectId, const Point &pt, Layer *pLayer);
     
-    bool registerEffects(unsigned int effectId, CCArray *parrFrame);
+    bool registerEffects(unsigned int effectId, Array *parrFrame);
     
 private:
     CResourceManager();
     
     //管理特效精灵
-    map<unsigned int, CCArray *> m_mapEffects;
+    map<unsigned int, Array *> m_mapEffects;
     
 };
 

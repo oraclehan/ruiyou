@@ -82,14 +82,14 @@ void CSceneManager::runWithSceneId(EN_SCENE_ID enScenceId)
     {
         if (itor->second)
         {
-            CCLayer *pLayer = itor->second();
+            Layer *pLayer = itor->second();
             if (!pLayer)
             {
                 CCLOGERROR("secneid %d's create func returns null", enScenceId);
                 return;
             }
             
-            CCScene *pScene = CCScene::create();
+            Scene *pScene = Scene::create();
             if (!pScene)
             {
                 CCLOGERROR("CCSene::create failed");
@@ -98,13 +98,13 @@ void CSceneManager::runWithSceneId(EN_SCENE_ID enScenceId)
             
             
             pScene->addChild(pLayer);
-            if (CCDirector::sharedDirector()->getRunningScene())
+            if (CCDirector::getInstance()->getRunningScene())
             {
-                CCDirector::sharedDirector()->replaceScene(pScene);
+                CCDirector::getInstance()->replaceScene(pScene);
             }
             else
             {
-                CCDirector::sharedDirector()->runWithScene(pScene);
+                CCDirector::getInstance()->runWithScene(pScene);
             }
             
             return;
