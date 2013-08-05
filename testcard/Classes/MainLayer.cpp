@@ -25,16 +25,18 @@ bool MainLayer::init()
         return false;
     }
     
-    Sprite * pSprite = Sprite::create("HelloWorld.png");
+    Sprite * pSprite = Sprite::create("Default@2x.png");
     //CC_BREAK_IF(!pSprite);
     if (!pSprite)
     {
         CCLOGERROR("create mainlayer helloword failed");
         return false;
     }
-    
-    pSprite->setPosition(Point(Director::getInstance()->getVisibleSize().width/2,
-                              Director::getInstance()->getVisibleSize().height/2));
+    pSprite->setRotation(-90.0);
+    pSprite->setPosition(Point(Director::getInstance()->getVisibleSize().width/2 +
+                               Director::getInstance()->getVisibleOrigin().x,
+                              Director::getInstance()->getVisibleSize().height/2 +
+                               Director::getInstance()->getVisibleOrigin().y));
     addChild(pSprite);
     
 //    CCSprite * pSprite1 = CCSprite::create("background.png");

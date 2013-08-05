@@ -22,18 +22,20 @@ bool CombatLayer::init()
             return false;
         }
         //加入战斗背景
-        Sprite * pSprite1 = Sprite::create("background2.jpg");
+        Sprite * pSprite1 = Sprite::create("background.jpg");
         CC_BREAK_IF(!pSprite1);
         
-        pSprite1->setPosition(Point(CCDirector::getInstance()->getVisibleSize().width/2,
-                                 CCDirector::getInstance()->getVisibleSize().height/2));
+        pSprite1->setPosition(Point(CCDirector::getInstance()->getVisibleSize().width/2
+                                    + CCDirector::getInstance()->getVisibleOrigin().x,
+                                 CCDirector::getInstance()->getVisibleSize().height/2
+                                    + CCDirector::getInstance()->getVisibleOrigin().y));
         addChild(pSprite1);
         
         //载入玩家外观
         CPlayer *pPlayer = new CPlayer;
         pPlayer->setPlayerId(0);
         pPlayer->init();
-        pPlayer->getSkin()->setPosition(Point(20,0));
+        pPlayer->getSkin()->setPosition(Point(20,CCDirector::getInstance()->getVisibleOrigin().y));
         
         addChild(pPlayer->getSkin());
 //
@@ -42,7 +44,7 @@ bool CombatLayer::init()
         pNewPlayer->setPlayerId(1);
         pNewPlayer->init();
         pNewPlayer->getSkin()->setPosition(Point(CCDirector::getInstance()->getVisibleSize().width-20
-                                           - pNewPlayer->getSkin()->getContentSize().width,0));
+                                           - pNewPlayer->getSkin()->getContentSize().width,CCDirector::getInstance()->getVisibleOrigin().y));
         
         addChild(pNewPlayer->getSkin());
 //

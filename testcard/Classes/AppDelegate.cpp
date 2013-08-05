@@ -4,6 +4,8 @@
 
 USING_NS_CC;
 
+Size designsize= {480, 320};
+
 AppDelegate::AppDelegate() {
 
 }
@@ -16,9 +18,13 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // initialize director
     Director* director = Director::getInstance();
     EGLView* eglView = EGLView::getInstance();
+    
+    Size frameSize = eglView->getFrameSize();
 
     director->setOpenGLView(eglView);
-	
+    eglView->setDesignResolutionSize(designsize.width, designsize.height, ResolutionPolicy::NO_BORDER);
+	director->setContentScaleFactor(MIN(frameSize.width/designsize.width, frameSize.height/designsize.height));
+    
     // turn on display FPS
     director->setDisplayStats(true);
 
