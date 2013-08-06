@@ -2,7 +2,7 @@
 //  MainLayer.h
 //  card
 //
-//  Created by å¼€å‘ä¸“ç”¨ on 13-7-29.
+//  Created by ¿ª·¢×¨ÓÃ on 13-7-29.
 //
 //
 

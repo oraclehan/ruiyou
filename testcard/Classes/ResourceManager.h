@@ -2,7 +2,7 @@
 //  ResourceManager.h
 //  card
 //
-//  Created by å¼€å‘ä¸“ç”¨ on 13-7-30.
+//  Created by ¿ª·¢×¨ÓÃ on 13-7-30.
 //
 //
 
@@ -29,7 +29,7 @@ public:
 private:
     CResourceManager();
     
-    //ç®¡ç†ç‰¹æ•ˆç²¾çµ
+    //¹ÜÀíÌØĞ§¾«Áé
     map<unsigned int, Array *> m_mapEffects;
     
 };

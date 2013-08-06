@@ -2,7 +2,7 @@
 //  CombatLayer.cpp
 //  card
 //
-//  Created by å¼€å‘ä¸“ç”¨ on 13-7-29.
+//  Created by ¿ª·¢×¨ÓÃ on 13-7-29.
 //
 //
 
@@ -21,7 +21,7 @@ bool CombatLayer::init()
         {
             return false;
         }
-        //åŠ å…¥æˆ˜æ–—èƒŒæ™¯
+        //¼ÓÈëÕ½¶·±³¾°
         Sprite * pSprite1 = Sprite::create("background.jpg");
         CC_BREAK_IF(!pSprite1);
         
@@ -31,7 +31,7 @@ bool CombatLayer::init()
                                     + CCDirector::getInstance()->getVisibleOrigin().y));
         addChild(pSprite1);
         
-        //è½½å…¥ç©å®¶å¤–è§‚
+        //ÔØÈëÍæ¼ÒÍâ¹Û
         CPlayer *pPlayer = new CPlayer;
         pPlayer->setPlayerId(0);
         pPlayer->init();
@@ -39,7 +39,7 @@ bool CombatLayer::init()
         
         addChild(pPlayer->getSkin());
 //
-        //è½½å…¥ç©å®¶å¤–è§‚
+        //ÔØÈëÍæ¼ÒÍâ¹Û
         CPlayer *pNewPlayer = new CPlayer;
         pNewPlayer->setPlayerId(1);
         pNewPlayer->init();

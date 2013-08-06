@@ -2,7 +2,7 @@
 //  ResourceManager.cpp
 //  card
 //
-//  Created by å¼€å‘ä¸“ç”¨ on 13-7-30.
+//  Created by ¿ª·¢×¨ÓÃ on 13-7-30.
 //
 //
 

@@ -4,11 +4,11 @@
 
 USING_NS_CC;
 
-//璁捐灏哄
-Size designsize = {480, 320};
+//设计尺寸
+Size designsize(480, 320);
 
-//璧勬簮灏哄
-Size ResSize = {960, 640};
+//资源尺寸
+Size ResSize(960, 640);
 
 AppDelegate::AppDelegate() {
 

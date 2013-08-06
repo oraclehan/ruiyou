@@ -2,7 +2,7 @@
 //  Player.h
 //  card
 //
-//  Created by å¼€å‘ä¸“ç”¨ on 13-7-29.
+//  Created by ¿ª·¢×¨ÓÃ on 13-7-29.
 //
 //
 
@@ -39,7 +39,7 @@ public:
 
 
 
-//ç©å®¶ç±»
+//Íæ¼ÒÀà
 class CPlayer : public Object
 {
 public:
@@ -48,21 +48,21 @@ public:
     ~CPlayer();
     
     void init();
-    //å±æ€§ health mana xxx
+    //ÊôĞÔ health mana xxx
     
-    //æŠ€èƒ½
+    //¼¼ÄÜ
     
-    //å¤©èµ‹
+    //Ìì¸³
     
-    //å¤–è§‚ï¼Œæš‚æ—¶ç”¨ä¸€ä¸ªå°å¡ç‰‡ä»£æ›¿
+    //Íâ¹Û£¬ÔİÊ±ÓÃÒ»¸öĞ¡¿¨Æ¬´úÌæ
     CC_SYNTHESIZE_RETAIN(CSkin*, m_pSkin, Skin);
     
-    //å…¶ä»–å±æ€§
+    //ÆäËûÊôĞÔ
 
     CC_SYNTHESIZE(unsigned int, m_iPlayerId, PlayerId)
     
 public:
-    //ç©å®¶ä½¿ç”¨æŠ€èƒ½æ”»å‡»æ•Œäººï¼Œç‰©ç†æ”»å‡»ä¹Ÿè®¤ä¸ºæ˜¯ä¸€ä¸ªæŠ€èƒ½
+    //Íæ¼ÒÊ¹ÓÃ¼¼ÄÜ¹¥»÷µĞÈË£¬ÎïÀí¹¥»÷Ò²ÈÏÎªÊÇÒ»¸ö¼¼ÄÜ
     void attack(unsigned int enemyId, unsigned int skillId);
 };
 

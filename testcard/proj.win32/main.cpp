@@ -16,6 +16,6 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
     AppDelegate app;
     EGLView* eglView = EGLView::getInstance();
     eglView->setViewName("testcard");
-    eglView->setFrameSize(480, 320);
+    eglView->setFrameSize(1136, 640);
     return Application::getInstance()->run();
 }

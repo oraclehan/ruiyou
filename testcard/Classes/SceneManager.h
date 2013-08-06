@@ -2,7 +2,7 @@
 //  SceneManager.h
 //  card
 //
-//  Created by å¼€å‘ä¸“ç”¨ on 13-7-29.
+//  Created by ¿ª·¢×¨ÓÃ on 13-7-29.
 //
 //
 
@@ -13,14 +13,14 @@
 
 using namespace cocos2d;
 
-//åœºæ™¯IDåˆ—è¡¨
+//³¡¾°IDÁĞ±í
 typedef enum{
     EN_SCENE_NONE =0,
-    EN_SCENE_MAIN,      //ä¸»ç•Œé¢
-    EN_SCENE_COMBAT    //äººæœºå¯¹æˆ˜
+    EN_SCENE_MAIN,      //Ö÷½çÃæ
+    EN_SCENE_COMBAT    //ÈË»ú¶ÔÕ½
 } EN_SCENE_ID;
 
-//åœºæ™¯IDå¯¹åº”çš„åˆ›å»ºå›è°ƒå‡½æ•°ç±»å‹CCLayer::Create
+//³¡¾°ID¶ÔÓ¦µÄ´´½¨»Øµ÷º¯ÊıÀàĞÍCCLayer::Create
 typedef Layer* (*SEL_CREATE)();
 
 #define layer_create_selector(_SELECTOR) (SEL_CREATE)(&_SELECTOR)
@@ -37,7 +37,7 @@ public:
     
     void runWithSceneId(EN_SCENE_ID enScenceId);
     
-    //æ‰€æœ‰çš„åœºæ™¯éœ€è¦æ¥è¿™é‡Œè¿›è¡Œæ³¨å†Œï¼Œå¦åˆ™æ— æ³•è¿›å…¥
+    //ËùÓĞµÄ³¡¾°ĞèÒªÀ´ÕâÀï½øĞĞ×¢²á£¬·ñÔòÎŞ·¨½øÈë
     bool init();
     
 private:
