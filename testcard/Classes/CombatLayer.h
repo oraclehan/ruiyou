@@ -2,7 +2,7 @@
 //  CombatLayer.h
 //  card
 //
-//  Created by å¼€å‘ä¸“ç”¨ on 13-7-29.
+//  Created by ¿ª·¢×¨ÓÃ on 13-7-29.
 //
 //
 
@@ -16,13 +16,13 @@
 using namespace cocos2d;
 
 
-//èƒŒæ™¯ï¼ŒåŒ…æ‹¬èƒŒæ™¯å›¾ç‰‡ï¼ŒéŸ³ä¹ï¼ŒèƒŒæ™¯åŠ¨ç”»ç­‰ç­‰
+//±³¾°£¬°üÀ¨±³¾°Í¼Æ¬£¬ÒôÀÖ£¬±³¾°¶¯»­µÈµÈ
 class CBackGround : public Object
 {
     
 };
 
-//ä¸»æˆ˜æ–—å¤„ç†ç±»
+//Ö÷Õ½¶·´¦ÀíÀà
 class CombatLayer : public cocos2d::Layer
 {
 public:
