@@ -16,7 +16,7 @@ using namespace std;
 class CResourceManager
 {
 public:
-    static CResourceManager * sharedResourceManager();
+    static CResourceManager * getInstance();
     
     ~CResourceManager();
     

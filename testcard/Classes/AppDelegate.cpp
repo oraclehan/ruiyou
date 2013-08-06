@@ -4,7 +4,11 @@
 
 USING_NS_CC;
 
-Size designsize= {480, 320};
+//设计尺寸
+Size designsize = {480, 320};
+
+//资源尺寸
+Size ResSize = {960, 640};
 
 AppDelegate::AppDelegate() {
 
@@ -23,7 +27,23 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     director->setOpenGLView(eglView);
     eglView->setDesignResolutionSize(designsize.width, designsize.height, ResolutionPolicy::NO_BORDER);
-	director->setContentScaleFactor(MIN(frameSize.width/designsize.width, frameSize.height/designsize.height));
+    float scaleFactor = 0.0;
+    float scaleX = frameSize.width/designsize.width;
+    float scaleY = frameSize.height/designsize.height;
+    if (scaleX < scaleY)
+    {
+        scaleFactor = scaleX * (ResSize.width/frameSize.width);
+    }
+    else
+    {
+        scaleFactor = scaleY * (ResSize.height/frameSize.height);
+    }
+    
+	director->setContentScaleFactor(scaleFactor);
+    
+    CCLOG("frame size [%f,%f]", frameSize.width, frameSize.height);
+    
+    CCLOG("scale size [%f,%f]", frameSize.width/designsize.width, frameSize.height/designsize.height);
     
     // turn on display FPS
     director->setDisplayStats(true);

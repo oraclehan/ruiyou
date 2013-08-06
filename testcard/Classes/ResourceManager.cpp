@@ -12,7 +12,7 @@
 static CResourceManager *s_SharedResouceManager = NULL;
 
 
-CResourceManager * CResourceManager::sharedResourceManager()
+CResourceManager * CResourceManager::getInstance()
 {
     if (!s_SharedResouceManager)
     {

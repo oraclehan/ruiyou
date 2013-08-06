@@ -25,7 +25,7 @@ bool MainLayer::init()
         return false;
     }
     
-    Sprite * pSprite = Sprite::create("Default@2x.png");
+    Sprite * pSprite = Sprite::create("Default2x.png");
     //CC_BREAK_IF(!pSprite);
     if (!pSprite)
     {
@@ -84,14 +84,14 @@ bool MainLayer::init()
     LabelTTF *title = LabelTTF::create("Touch Me!3324234", "Marker Felt", 30);
     Scale9Sprite *pScaleSprite = Scale9Sprite::create("Icon-72.png");
     ControlButton *button = ControlButton::create(title, pScaleSprite);
-    button->setPosition(Point(EGLView::getInstance()->getVisibleSize().width /2,
+    button->setPosition(Point(EGLView::getInstance()->getVisibleOrigin().x + EGLView::getInstance()->getVisibleSize().width /2,
                             EGLView::getInstance()->getVisibleSize().height /2));
     button->setPreferredSize(pScaleSprite->getContentSize());
     addChild(button);
     button->addTargetWithActionForControlEvents(this, cccontrol_selector(MainLayer::onChangeScene),Control::EventType::TOUCH_UP_INSIDE);
     
     LabelTTF *pControduce = CCLabelTTF::create("lobby layer!!", "Marker Felt", 50);
-    pControduce->setPosition(Point(CCDirector::getInstance()->getVisibleSize().width/2,
+    pControduce->setPosition(Point(EGLView::getInstance()->getVisibleOrigin().x + CCDirector::getInstance()->getVisibleSize().width/2,
                                  CCDirector::getInstance()->getVisibleSize().height/2 + 100));
     addChild(pControduce);
     return true;

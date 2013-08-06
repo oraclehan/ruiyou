@@ -110,7 +110,7 @@ void CSkin::ccTouchEnded(Touch *pTouch, Event *pEvent)
     if (CPlayerManager::sharedPlayerManager()->useSkill(m_iPlayerId))
     {
     //this->convertToNodeSpace(pt)
-        CResourceManager::sharedResourceManager()->playEffects(0, convertToNodeSpace(pt), this);
+        CResourceManager::getInstance()->playEffects(0, convertToNodeSpace(pt), this);
     }
     
 }

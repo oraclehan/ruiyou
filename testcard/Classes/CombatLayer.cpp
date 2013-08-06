@@ -35,7 +35,7 @@ bool CombatLayer::init()
         CPlayer *pPlayer = new CPlayer;
         pPlayer->setPlayerId(0);
         pPlayer->init();
-        pPlayer->getSkin()->setPosition(Point(20,CCDirector::getInstance()->getVisibleOrigin().y));
+        pPlayer->getSkin()->setPosition(Point(CCDirector::getInstance()->getVisibleOrigin().x + 20,CCDirector::getInstance()->getVisibleOrigin().y));
         
         addChild(pPlayer->getSkin());
 //
@@ -43,7 +43,7 @@ bool CombatLayer::init()
         CPlayer *pNewPlayer = new CPlayer;
         pNewPlayer->setPlayerId(1);
         pNewPlayer->init();
-        pNewPlayer->getSkin()->setPosition(Point(CCDirector::getInstance()->getVisibleSize().width-20
+        pNewPlayer->getSkin()->setPosition(Point(CCDirector::getInstance()->getVisibleOrigin().x + CCDirector::getInstance()->getVisibleSize().width-20
                                            - pNewPlayer->getSkin()->getContentSize().width,CCDirector::getInstance()->getVisibleOrigin().y));
         
         addChild(pNewPlayer->getSkin());
